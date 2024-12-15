@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Gesture Dino Game - Jeevan Ramesh Jadhav</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="hand_gesture_dino_game.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">Jeevan Jadhav</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="index.html#home" class="nav__link active-link">
+                            <i class="fas fa-home nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#projects" class="nav__link">
+                            <i class="fas fa-project-diagram nav__icon"></i> Projects
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html#contact" class="nav__link">
+                            <i class="fas fa-envelope nav__icon"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="fas fa-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <i class="fas fa-moon change-theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="dino-hero section" id="dino-hero">
+            <div class="dino-hero__container container grid">
+                <div class="dino-hero__content grid">
+                    <div class="dino-hero__social">
+                        <a href="https://www.linkedin.com/in/jeevanjadhav02" target="_blank" class="dino-hero__social-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/NOVA0206" target="_blank" class="dino-hero__social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="dino-hero__img">
+                        <svg class="dino-hero__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                <image class="dino-hero__blob-img" x="12" y="18" href="https://howlongtobeat.com/games/95971_Dinosaur_Game.png"/>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="dino-hero__data">
+                        <h1 class="dino-hero__title">Hand Gesture Dino Game</h1>
+                        <h3 class="dino-hero__subtitle">Interactive Gaming Experience</h3>
+                        <p class="dino-hero__description">Experience the classic Chrome Dino game with a twist - control it with your hand gestures!</p>
+                        <a href="#gameplay-video" class="button button--flex">
+                            Watch Gameplay <i class="fas fa-play button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="game-intro section" id="game-intro">
+            <h2 class="section__title">Game Introduction</h2>
+            <span class="section__subtitle">Innovative Gameplay</span>
+            <div class="game-intro__container container grid">
+                <div class="game-intro__content">
+                    <div>
+                        <h3 class="game-intro__title">Gesture-Controlled Gaming</h3>
+                        <p class="game-intro__description">
+                            Developed using Python and computer vision techniques, this game brings a new dimension to the classic Chrome Dino game. Use your hand gestures to control the dinosaur, making the gameplay more interactive and engaging.
+                        </p>
+                    </div>
+                </div>
+                <div class="game-intro__img">
+                    <img src="https://www.coolmathgames.com/sites/default/files/DinoGame_OG-logo.jpg" alt="Game Introduction">
+                </div>
+            </div>
+        </section>
+
+        <section class="features section" id="features">
+            <h2 class="section__title">Game Features</h2>
+            <span class="section__subtitle">What makes it special</span>
+            <div class="features__container container grid">
+                <div class="feature__card">
+                    <i class="fas fa-hand-paper feature__icon"></i>
+                    <h3 class="feature__title">Hand Gesture Control</h3>
+                    <p class="feature__description">Control the dinosaur using intuitive hand movements.</p>
+                </div>
+                <div class="feature__card">
+                    <i class="fas fa-camera feature__icon"></i>
+                    <h3 class="feature__title">Real-time Computer Vision</h3>
+                    <p class="feature__description">Utilizes advanced algorithms for precise gesture recognition.</p>
+                </div>
+                <div class="feature__card">
+                    <i class="fas fa-gamepad feature__icon"></i>
+                    <h3 class="feature__title">Classic Gameplay</h3>
+                    <p class="feature__description">Retains the charm of the original with added interactivity.</p>
+                </div>
+                <div class="feature__card">
+                    <i class="fas fa-chart-line feature__icon"></i>
+                    <h3 class="feature__title">Progressive Difficulty</h3>
+                    <p class="feature__description">Game speed increases over time for a challenging experience.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="gameplay-video section" id="gameplay-video">
+            <h2 class="section__title">Gameplay Video</h2>
+            <span class="section__subtitle">Watch it in action</span>
+            <div class="gameplay-video__container container">
+                <div class="gameplay-video__content">
+                    <div class="gameplay-video__wrapper">
+                        <iframe src="./video/Websitevideo.mp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="gameplay-video__iframe"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Jeevan</h1>
+                    <span class="footer__subtitle">Computer Science Student</span>
+                </div>
+                <ul class="footer__links">
+                    <li>
+                        <a href="index.html#projects" class="footer__link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="index.html#contact" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="footer__socials">
+                    <a href="https://www.linkedin.com/in/jeevanjadhav02" target="_blank" class="footer__social">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/NOVA0206" target="_blank" class="footer__social">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169; 2024 Jeevan Ramesh Jadhav. All rights reserved</p>
+        </div>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fas fa-arrow-up scrollup__icon"></i>
+    </a>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollreveal/4.0.9/scrollreveal.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="hand_gesture_dino_game.js"></script>
+</body>
+</html>
+
