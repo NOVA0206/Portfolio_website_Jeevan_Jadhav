@@ -1,0 +1,178 @@
+<!DOCTYPE html>+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animme</title>
+    <style>
+            *{
+        margin:0;
+        padding:0;
+    }
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+        cursor: pointer;
+        background-color: black;
+        background-blend-mode: darken;
+        background-size: cover;
+    }
+    .nav-list {
+        width: 70%;
+        display: flex;
+        align-items: center;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: left;
+    }
+    .logo img {
+        width: 180px;
+        border-radius: 20px;
+    }
+    .nav-list li {
+        list-style: none;
+        padding: 26px 30px;
+    }
+    .nav-list li a {
+        text-decoration: none;
+        color: white;
+    }
+    .nav-list li a:hover {
+        color: rgb(84, 84, 84);
+    }
+    .rightnav {
+        width: 30%;
+        text-align: right;
+    }
+    #search {
+        padding: 5px;
+        font-size: 17px;
+        border: 2px solid grey;
+        border-radius: 9px;
+    }
+        .context{
+            display: flex;
+            position: fixed;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url("https://wallpapers.com/images/hd/dark-anime-bleach-lfafwgaogpbf9pfk.jpg");
+        }
+        .column {
+            float: left;
+            width: 25%;
+            padding: 0 10px;
+        }
+        .row {margin: 0 -5px;}
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+@media screen and (max-width: 600px) {
+        .column {
+            width: 100%;
+            display: block;
+            margin-bottom: 20px;
+        }
+}
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            text-align: center;
+            background-color: #f1f1f1;
+        }
+        .card2 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            text-align: center;
+            background-color: #f1f1f1;
+        }
+        .text-footer {
+            text-align: center;
+            padding: 30px 0;
+            font-family: 'Ubuntu', sans-serif;
+            display: flex;
+            justify-content: center;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <center><b><h1 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color:white;">Anime</h1></b></center>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <div class="logo">
+                <a href="index.html"><img src= "https://upload.wikimedia.org/wikipedia/commons/f/fc/Crunchyroll_logo_2018_vertical.png" alt="Pitcure file" width=300 height=200></a>
+            </div>
+            <li><a href="Genres1.html">BROWSE</a></li>
+            <li><a href="About1.html">ABOUT US</a></li>
+            <li><a href="Login1.html">LOG IN</a></li>
+        </ul>
+        <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+        <hr>
+        <div id="container">
+        <div id="content">
+        <center><h1 style="color:white;">Top Anime</h1></center>
+        <div class="main" id="mainBannerList" style="background:url(https://wallpapercave.com/wp/wp6998350.png) no-repeat 50% 0;background-size:cover">
+            <div class="_largeBanner">
+                <center><a href="https://www.crunchyroll.com/series/GR75Q020Y/boruto-naruto-next-generations"><img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/bdbd4f4e247f7290eb847025021e133b.jpe" style="size:cover;"></a></center>
+        </div>
+        </div>
+        </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <section class="Context">
+            <div class="row">
+                <div class="column">
+                <div class="card">
+                    <a href="https://www.crunchyroll.com/series/GEXH3WKK0/vinland-saga"><img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/44ca7020d3de7a444724dc8e16c43142.jpe" alt="Vinland Saga" style="width:90%; height:70%;"></a>
+                    <h4><b>Vinland Saga</b></h4>
+                    <p>Viking was seeking the land of reverie called Vinland. This is the story of a true warrior in an age of turmoil.</p>
+                </div>
+                </div>
+                <div class="column">
+                <div class="card">
+                    <a href="https://www.crunchyroll.com/series/G3KHEVMN1/tokyo-revengers"><img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/7923a0407dbdba324c56acec9f096c13.jpe" alt="Tokyo Revengers" style="width:90%; height:70%;"></a>
+                    <h4><b>TOkyo Revengers</b></h4>
+                    <p>Now that Takemichi is back living the best days of his life, Takemichi decides to get revenge on his life.</p>
+                </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <a href="https://www.crunchyroll.com/series/GVDHX8QNW/chainsaw-man"><img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/ea075b926e1073f4eb016bff8cdb434c.jpe" alt="Chainsaw MAn" style="width:90%; height:70%;"></a>
+                        <h4><b>Chainsaw Man</b></h4>
+                        <p>As Denji was losing his consciousness, he made a deal with Pochita, and got resurrected as the owner of the Devil’s heart.</p>
+                </div>
+                </div>
+                <div class="column">
+                <div class="card">
+                    <a href="https://www.crunchyroll.com/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba"><img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/6b5f4fc8c0a7bb5012b9c0930a46570f.jpe" alt="Demon Slayer" style="width:90%; height:70%;"></a>
+                    <h4><b>Demon Slayer</b></h4>
+                    <p>Tanjiro resolves to become a “demon slayer” so that he can turn his sister back into a human, and kill the demon.</p>
+                </div>
+                </div>
+        </section>
+        <br>
+        <footer class="background">
+            <p class="text-footer">
+            Copyright ©-All rights are reserved
+            </p>
+        </footer>
+</body>
+</html>
